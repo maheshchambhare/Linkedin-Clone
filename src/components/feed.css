@@ -1,0 +1,56 @@
+.feed {
+  -webkit-box-flex: 0.6;
+      -ms-flex: 0.6;
+          flex: 0.6;
+  margin: 0 20px;
+}
+
+.feed .input-container {
+  background-color: white;
+  padding: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.feed .input-container .feed-input {
+  border: 1px solid lightgray;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  color: gray;
+  padding-left: 15px;
+}
+
+.feed .input-container .feed-input form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.feed .input-container .feed-input form input {
+  border: none;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 10px;
+  outline-width: 0;
+  font-weight: 600;
+}
+
+.feed .input-container .feed-input form button {
+  display: none;
+}
+
+.feed .input-container .feed-inputoptions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+/*# sourceMappingURL=feed.css.map */
